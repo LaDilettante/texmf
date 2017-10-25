@@ -1,0 +1,26 @@
+name 00texlive.installation
+category TLCore
+depend setting_available_architectures:
+depend opt_location:ftp://tug.org/historic/systems/texlive/2015/tlnet-final
+depend setting_usertree:1
+
+name babel-vietnamese
+category Package
+revision 39246
+shortdesc Babel support for typesetting Vietnamese
+longdesc The package provides the language definition file for support
+longdesc of Vietnamese in babel.
+containersize 2476
+containermd5 2fdf2751a27280d2cbde08f5ce734dbc
+doccontainersize 49596
+doccontainermd5 e6cddb57031391e0a9e1301d53a30980
+srccontainersize 6900
+srccontainermd5 30ebadd22cc197b568607f23f2bd26d8
+runfiles size=2
+ tex/generic/babel-vietnamese/vietnamese.ldf
+catalogue-ctan /macros/latex/contrib/babel-contrib/vietnamese
+catalogue-date 2015-12-31 12:55:28 +0100
+catalogue-license lppl1.3
+catalogue-topics vietnamese multilingual-addon
+catalogue-version 1.4
+
